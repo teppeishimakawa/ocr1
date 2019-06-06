@@ -1,44 +1,49 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+body
+{
+font-size:10px;
+}
 
-      <script src="https://cdn.jsdelivr.net/gh/naptha/tesseract.js@v1.0.14/dist/tesseract.min.js"></script>
+.btn
+{
+  margin-left:30px;
+  margin-top:5px;
+  width:250px;
+  padding:20px;
+  border-radius:5px;
+}
 
-  </head>
-  <body>
-  <div id="progress"></div>
-  <input id="fileSel" type="file"/>
-  <br>
-  <textarea id="textarea" rows="10" cols="40"></textarea>
-  <canvas id="canvas"></canvas>
-  <script src='./index.js'></script>
 
-  <form name="myForm" action="https://www.google.com" method="get">
-  <input type="text" id="issue1" >
-  <input type="text" id="issue11" >
-  <br>
-  <input type="text" id="issue2" >
-  <input type="text" id="issue12" >
-  <br>
-  <input type="text" id="issue3" >
-  <input type="text" id="issue13" >
-  <br>
-  <input type="text" id="issue4" >
-  <input type="text" id="issue14" >
-  <br>
-  <input type="text" id="issue5" >
-  <input type="text" id="issue15" >
-  <br>
-  <input type="text" id="issue6" >
-  <input type="text" id="issue16" >
-  <br>
-  <br>
-  <input type="submit" value="send">
-  </form>
-  </body>
-</html>
+#fileSel
+{
+  margin-left:10px;
+  width:800px;
+  padding:10px;
+  border-radius:5px;
+}
 
+/*
+#canvas
+{
+width:50%;
+}
+*/
+
+#RecCanvas
+{
+width:50%;
+}
+
+#rei
+{
+width:30%;
+}
+
+.wordNum
+{
+width:30px;
+}
+
+.right
+{
+margin-left:400px;
+}
